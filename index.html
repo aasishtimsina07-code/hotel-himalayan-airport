@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hotel Himalayan Airport near Tribhuvan International Airport, Kathmandu. Comfortable rooms, airport access, Wi-Fi, and direct booking support." />
+  <title>Hotel Himalayan Airport | Official Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: { 400: '#E6CA65', 500: '#D4AF37', 600: '#AA820A' },
+            darkBg: '#090D16',
+            cardBg: '#111726',
+            cardBorder: '#1E293B'
+          },
+          fontFamily: {
+            heading: ['Cinzel', 'serif'],
+            body: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #090D16; color: #F3F4F6; }
+    .font-heading { font-family: 'Cinzel', serif; }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FFF099 0%, #D4AF37 50%, #997A15 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-darkBg text-gray-200 antialiased selection:bg-gold-500 selection:text-black">
+  <header class="sticky top-0 z-40 bg-darkBg/90 backdrop-blur-md border-b border-cardBorder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      <a href="#about" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full border border-gold-500/40 bg-cardBg flex items-center justify-center text-gold-500 text-xl">
+          <i class="fa-solid fa-mountain-sun"></i>
+        </div>
+        <div class="flex flex-col leading-tight">
+          <span class="font-heading text-base sm:text-lg font-bold tracking-widest text-gold-500">HOTEL HIMALAYAN</span>
+          <span class="text-[10px] tracking-[0.25em] text-gray-400 uppercase">Airport Pvt. Ltd.</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium tracking-wide">
+        <a href="#about" class="hover:text-gold-400 transition-colors">About</a>
+        <a href="#rooms" class="hover:text-gold-400 transition-colors">Rooms & Pricing</a>
+        <a href="#faq" class="hover:text-gold-400 transition-colors">FAQ</a>
+        <a href="#reviews" class="hover:text-gold-400 transition-colors">Reviews</a>
+        <a href="#location" class="hover:text-gold-400 transition-colors">Location</a>
+        <a href="tel:+9779747814474" class="flex items-center gap-2 text-gold-500 font-semibold hover:text-gold-400">
+          <i class="fa-solid fa-phone"></i> +977 9747814474
+        </a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <select id="currencySelect" onchange="updateCurrency()" class="bg-cardBorder text-gray-200 text-xs font-semibold py-2 px-2.5 rounded-lg border border-slate-700 outline-none cursor-pointer">
+          <option value="NPR">NPR (रु)</option>
+          <option value="USD">USD ($)</option>
+          <option value="EUR">EUR (€)</option>
+          <option value="INR">INR (₹)</option>
+        </select>
+
+        <a href="https://www.booking.com/hotel/np/himalayan-airport.html?sid=ce9c7baa12d1961c751e7baf5ca01c5a&dest_id=14367523&dest_type=hotel" target="_blank" rel="noopener noreferrer" class="px-3.5 py-2.5 bg-gold-500 hover:bg-gold-600 text-black font-semibold text-xs rounded-lg transition-all shadow-md">
+          Book on Booking.com
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="relative py-20 sm:py-28 bg-gradient-to-b from-darkBg via-cardBg to-darkBg border-b border-cardBorder">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <span class="text-gold-500 text-xs font-bold uppercase tracking-[0.3em] mb-4 inline-block">Tribhuvan International Airport • Kathmandu</span>
+        <h1 class="font-heading text-3xl sm:text-6xl font-bold mb-6 gold-gradient-text leading-tight">
+          Comfortable Stay Near<br/>Tribhuvan International Airport
+        </h1>
+        <p class="max-w-2xl mx-auto text-gray-400 text-sm sm:text-lg mb-8 leading-relaxed">
+          Enjoy clean, modern rooms, warm Nepalese hospitality, high-speed Wi-Fi, and a peaceful atmosphere—all at an affordable price.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="https://www.booking.com/hotel/np/himalayan-airport.html?sid=ce9c7baa12d1961c751e7baf5ca01c5a&dest_id=14367523&dest_type=hotel" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 bg-gold-500 hover:bg-gold-600 text-black font-bold rounded-xl transition-all shadow-lg flex items-center gap-2 text-sm sm:text-base">
+            <i class="fa-solid fa-calendar-check"></i> Book Online Now
+          </a>
+          <a href="tel:+9779747814474" class="px-6 py-3.5 bg-gold-500/10 border border-gold-500/40 hover:bg-gold-500/20 text-gold-400 font-bold rounded-xl transition-all flex items-center gap-2 text-sm sm:text-base">
+            <i class="fa-solid fa-phone"></i> Call +977 9747814474
+          </a>
+          <a href="https://wa.me/9779747814474?text=Hello,%20I%20would%20like%20to%20book%20a%20room." target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl transition-all flex items-center gap-2 text-sm sm:text-base">
+            <i class="fa-brands fa-whatsapp text-lg"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rooms" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white mb-3">Our Rooms & Pricing</h2>
+        <p class="text-gray-400 text-sm sm:text-base">Comfortable rooms with direct airport access and affordable pricing.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-cardBg rounded-2xl border border-cardBorder overflow-hidden hover:border-gold-500/50 transition-all flex flex-col">
+          <div class="bg-blue-600 text-white text-center py-2.5 px-4 font-bold text-sm tracking-wider uppercase">STANDARD DOUBLE ROOM</div>
+          <div class="p-4 bg-darkBg border-b border-cardBorder">
+            <div class="text-xs font-bold text-gold-500 uppercase tracking-wider mb-2 flex items-center gap-1.5"><i class="fa-solid fa-star text-[10px]"></i> Key Room Features</div>
+            <div class="grid grid-cols-2 gap-2 text-xs text-gray-300">
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Double Bed</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Attached Bath</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Non A/C</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Free Wi-Fi</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Flat Screen TV</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Hot/Cold Water</div>
+            </div>
+          </div>
+          <div class="h-64 bg-slate-800 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Standard Double Room" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xl font-bold text-blue-400 mb-2 text-center price-tag" data-npr="20000">Starting From NPR 20000/-</div>
+              <p class="text-[11px] text-red-400 font-semibold tracking-wide uppercase leading-relaxed mb-4 text-center">NON A/C, T.V., WIFI, HOT/COLD WATER, ATTACHED BATHROOM</p>
+            </div>
+            <div class="space-y-2">
+              <a href="https://wa.me/9779747814474?text=Hello,%20I%20would%20like%20to%20book%20the%20Standard%20Double%20Room." target="_blank" rel="noopener noreferrer" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white text-center font-bold text-xs tracking-wider rounded-lg transition-all uppercase block">BOOK NOW</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-cardBg rounded-2xl border border-cardBorder overflow-hidden hover:border-gold-500/50 transition-all flex flex-col">
+          <div class="bg-blue-600 text-white text-center py-2.5 px-4 font-bold text-sm tracking-wider uppercase">STANDARD TWIN ROOM</div>
+          <div class="p-4 bg-darkBg border-b border-cardBorder">
+            <div class="text-xs font-bold text-gold-500 uppercase tracking-wider mb-2 flex items-center gap-1.5"><i class="fa-solid fa-star text-[10px]"></i> Key Room Features</div>
+            <div class="grid grid-cols-2 gap-2 text-xs text-gray-300">
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Twin Single Beds</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Attached Bath</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Non A/C</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Free Wi-Fi</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Flat Screen TV</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Hot/Cold Water</div>
+            </div>
+          </div>
+          <div class="h-64 bg-slate-800 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Standard Twin Room" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xl font-bold text-blue-400 mb-2 text-center price-tag" data-npr="22000">Starting From NPR 22000/-</div>
+              <p class="text-[11px] text-red-400 font-semibold tracking-wide uppercase leading-relaxed mb-4 text-center">NON A/C, T.V., WIFI, HOT/COLD WATER, ATTACHED BATHROOM</p>
+            </div>
+            <div class="space-y-2">
+              <a href="https://wa.me/9779747814474?text=Hello,%20I%20would%20like%20to%20book%20the%20Standard%20Twin%20Room." target="_blank" rel="noopener noreferrer" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white text-center font-bold text-xs tracking-wider rounded-lg transition-all uppercase block">BOOK NOW</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-cardBg rounded-2xl border border-cardBorder overflow-hidden hover:border-gold-500/50 transition-all flex flex-col">
+          <div class="bg-blue-600 text-white text-center py-2.5 px-4 font-bold text-sm tracking-wider uppercase">DELUXE TWIN ROOM</div>
+          <div class="p-4 bg-darkBg border-b border-cardBorder">
+            <div class="text-xs font-bold text-gold-500 uppercase tracking-wider mb-2 flex items-center gap-1.5"><i class="fa-solid fa-star text-[10px]"></i> Key Room Features</div>
+            <div class="grid grid-cols-2 gap-2 text-xs text-gray-300">
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-snowflake text-blue-400 text-[10px]"></i> Air Conditioning</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Twin Beds</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Attached Luxury Bath</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> High-Speed Wi-Fi</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Smart TV</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Hot/Cold Shower</div>
+            </div>
+          </div>
+          <div class="h-64 bg-slate-800 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80" alt="Deluxe Twin Room" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xl font-bold text-blue-400 mb-2 text-center price-tag" data-npr="30000">Starting From NPR 30000/-</div>
+              <p class="text-[11px] text-red-400 font-semibold tracking-wide uppercase leading-relaxed mb-4 text-center">A/C, T.V., WIFI, HOT/COLD WATER, ATTACHED BATHROOM</p>
+            </div>
+            <div class="space-y-2">
+              <a href="https://wa.me/9779747814474?text=Hello,%20I%20would%20like%20to%20book%20the%20Deluxe%20Twin%20Room." target="_blank" rel="noopener noreferrer" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white text-center font-bold text-xs tracking-wider rounded-lg transition-all uppercase block">BOOK NOW</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-cardBg rounded-2xl border border-cardBorder overflow-hidden hover:border-gold-500/50 transition-all flex flex-col">
+          <div class="bg-blue-600 text-white text-center py-2.5 px-4 font-bold text-sm tracking-wider uppercase">STANDARD DOUBLE OR TWIN ROOM</div>
+          <div class="p-4 bg-darkBg border-b border-cardBorder">
+            <div class="text-xs font-bold text-gold-500 uppercase tracking-wider mb-2 flex items-center gap-1.5"><i class="fa-solid fa-star text-[10px]"></i> Key Room Features</div>
+            <div class="grid grid-cols-2 gap-2 text-xs text-gray-300">
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-snowflake text-blue-400 text-[10px]"></i> Air Conditioning</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Double / Twin Bed</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Attached Bath</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> High-Speed Wi-Fi</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Flat Screen TV</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Hot/Cold Water</div>
+            </div>
+          </div>
+          <div class="h-64 bg-slate-800 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80" alt="Standard Double/Twin Room" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xl font-bold text-blue-400 mb-2 text-center price-tag" data-npr="35000">Starting From NPR 35000/-</div>
+              <p class="text-[11px] text-red-400 font-semibold tracking-wide uppercase leading-relaxed mb-4 text-center">A/C, T.V., WIFI, HOT/COLD WATER, ATTACHED BATHROOM</p>
+            </div>
+            <div class="space-y-2">
+              <a href="https://wa.me/9779747814474?text=Hello,%20I%20would%20like%20to%20book%20the%20Standard%20Double%20or%20Twin%20Room." target="_blank" rel="noopener noreferrer" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white text-center font-bold text-xs tracking-wider rounded-lg transition-all uppercase block">BOOK NOW</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-cardBg rounded-2xl border border-cardBorder overflow-hidden hover:border-gold-500/50 transition-all flex flex-col">
+          <div class="bg-blue-600 text-white text-center py-2.5 px-4 font-bold text-sm tracking-wider uppercase">DELUXE DOUBLE OR TWIN ROOM</div>
+          <div class="p-4 bg-darkBg border-b border-cardBorder">
+            <div class="text-xs font-bold text-gold-500 uppercase tracking-wider mb-2 flex items-center gap-1.5"><i class="fa-solid fa-star text-[10px]"></i> Key Room Features</div>
+            <div class="grid grid-cols-2 gap-2 text-xs text-gray-300">
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Spacious Layout</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Double / Twin Bed</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Attached Bathroom</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Non A/C</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Free Wi-Fi</div>
+              <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-gold-500 text-[10px]"></i> Flat Screen TV</div>
+            </div>
+          </div>
+          <div class="h-64 bg-slate-800 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80" alt="Deluxe Double/Twin Room" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-xl font-bold text-blue-400 mb-2 text-center price-tag" data-npr="25000">Starting From NPR 25000/-</div>
+              <p class="text-[11px] text-red-400 font-semibold tracking-wide uppercase leading-relaxed mb-4 text-center">NON A/C, T.V., WIFI, HOT/COLD WATER, ATTACHED BATHROOM</p>
+            </div>
+            <div class="space-y-2">
+              <a href="https://wa.me/9779747814474?text=Hello,%20I%20would%20like%20to%20book%20the%20Deluxe%20Double%20or%20Twin%20Room." target="_blank" rel="noopener noreferrer" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white text-center font-bold text-xs tracking-wider rounded-lg transition-all uppercase block">BOOK NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-20 bg-cardBg border-y border-cardBorder">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white mb-3">Frequently Asked Questions</h2>
+          <p class="text-gray-400 text-sm sm:text-base">Everything you need to know before your stay.</p>
+        </div>
+
+        <div class="space-y-4">
+          <div class="bg-darkBg rounded-xl border border-cardBorder overflow-hidden">
+            <button onclick="toggleFaq(this)" class="w-full p-5 text-left font-semibold text-white flex justify-between items-center hover:text-gold-400 transition-colors">
+              <span>Q: What are check-in and check-out times?</span>
+              <i class="fa-solid fa-plus text-gold-500 transition-transform"></i>
+            </button>
+            <div class="hidden px-5 pb-5 text-sm text-gray-400 leading-relaxed border-t border-cardBorder pt-3">
+              A: Standard check-in is from 12:00 PM onwards, and check-out is until 11:00 AM. Our front desk support is available for late-night or early-morning flight arrivals.
+            </div>
+          </div>
+
+          <div class="bg-darkBg rounded-xl border border-cardBorder overflow-hidden">
+            <button onclick="toggleFaq(this)" class="w-full p-5 text-left font-semibold text-white flex justify-between items-center hover:text-gold-400 transition-colors">
+              <span>Q: Do you offer luggage storage for early arrivals?</span>
+              <i class="fa-solid fa-plus text-gold-500 transition-transform"></i>
+            </button>
+            <div class="hidden px-5 pb-5 text-sm text-gray-400 leading-relaxed border-t border-cardBorder pt-3">
+              A: Yes! Guests arriving early before check-in or departing late can securely store their luggage at the front desk.
+            </div>
+          </div>
+
+          <div class="bg-darkBg rounded-xl border border-cardBorder overflow-hidden">
+            <button onclick="toggleFaq(this)" class="w-full p-5 text-left font-semibold text-white flex justify-between items-center hover:text-gold-400 transition-colors">
+              <span>Q: Is Wi-Fi available in all rooms?</span>
+              <i class="fa-solid fa-plus text-gold-500 transition-transform"></i>
+            </button>
+            <div class="hidden px-5 pb-5 text-sm text-gray-400 leading-relaxed border-t border-cardBorder pt-3">
+              A: Yes, complimentary high-speed Wi-Fi is available across all rooms and common areas.
+            </div>
+          </div>
+
+          <div class="bg-darkBg rounded-xl border border-cardBorder overflow-hidden">
+            <button onclick="toggleFaq(this)" class="w-full p-5 text-left font-semibold text-white flex justify-between items-center hover:text-gold-400 transition-colors">
+              <span>Q: How close is the hotel to Tribhuvan International Airport?</span>
+              <i class="fa-solid fa-plus text-gold-500 transition-transform"></i>
+            </button>
+            <div class="hidden px-5 pb-5 text-sm text-gray-400 leading-relaxed border-t border-cardBorder pt-3">
+              A: We are located very close to Tribhuvan International Airport in Kathmandu, making it convenient for transit and flight travelers.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-14">
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white mb-3">Guest Reviews</h2>
+        <p class="text-gray-400 text-sm sm:text-base">What travelers say about staying at Hotel Himalayan Airport</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-xl bg-cardBg border border-cardBorder">
+          <div class="flex text-gold-500 gap-1 mb-4">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-gray-300 text-sm mb-6 leading-relaxed">"Extremely convenient location right next to Kathmandu Airport. Quiet, comfortable, and perfect for early morning flights!"</p>
+          <div class="font-semibold text-white text-sm">Aarav Sharma</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-cardBg border border-cardBorder">
+          <div class="flex text-gold-500 gap-1 mb-4">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-gray-300 text-sm mb-6 leading-relaxed">"Clean bedding, fast Wi-Fi, and a very affordable price for transit travelers. The staff is warm and accommodating."</p>
+          <div class="font-semibold text-white text-sm">Sarah Jenkins</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-cardBg border border-cardBorder">
+          <div class="flex text-gold-500 gap-1 mb-4">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-gray-300 text-sm mb-6 leading-relaxed">"The air-conditioned room was super fresh and the hot shower pressure was excellent. We’d stay here again."</p>
+          <div class="font-semibold text-white text-sm">Bikash Shrestha</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="location" class="py-16 bg-cardBg border-t border-cardBorder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div>
+          <h3 class="font-heading text-lg font-bold text-gold-500 mb-4">HOTEL HIMALAYAN AIRPORT</h3>
+          <p class="text-xs text-gray-400 leading-relaxed mb-6">Providing modern rooms, peaceful relaxation, and direct airport access in Kathmandu.</p>
+          <div class="flex gap-4 text-xl">
+            <a href="https://wa.me/9779747814474" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-darkBg border border-cardBorder flex items-center justify-center text-green-400 hover:bg-green-500 hover:text-white transition-all">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://maps.app.goo.gl/cZkJmcUMLySw8gBa6" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-darkBg border border-cardBorder flex items-center justify-center text-gold-500 hover:bg-gold-500 hover:text-black transition-all">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-heading text-sm font-bold text-white mb-4 uppercase tracking-wider">Contact Details</h4>
+          <ul class="text-xs text-gray-400 space-y-3">
+            <li><i class="fa-solid fa-phone text-gold-500 mr-2"></i> <a href="tel:+9779747814474" class="hover:text-gold-400 text-white font-semibold">+977 9747814474</a></li>
+            <li><i class="fa-brands fa-whatsapp text-green-400 mr-2"></i> <a href="https://wa.me/9779747814474" target="_blank" rel="noopener noreferrer" class="hover:text-green-300 text-white font-semibold">+977 9747814474 (WhatsApp)</a></li>
+            <li><i class="fa-solid fa-location-dot text-gold-500 mr-2"></i> Near Tribhuvan International Airport, Kathmandu</li>
+            <li><i class="fa-solid fa-clock text-gold-500 mr-2"></i> 24/7 Front Desk Hospitality</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-heading text-sm font-bold text-white mb-4 uppercase tracking-wider">Direct Reservation</h4>
+          <p class="text-xs text-gray-400 mb-4">Reserve instantly with real-time room availability on Booking.com:</p>
+          <a href="https://www.booking.com/hotel/np/himalayan-airport.html?sid=ce9c7baa12d1961c751e7baf5ca01c5a&dest_id=14367523&dest_type=hotel" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-gold-500 hover:bg-gold-600 text-black font-bold text-xs uppercase tracking-wider rounded-lg transition-all">
+            Booking.com Listing
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-cardBorder/50 text-center text-xs text-gray-500">
+        © 2026 Hotel Himalayan Airport Pvt Ltd. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/9779747814474?text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20hotel%20rooms." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl transition-transform hover:scale-110">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script>
+    const currentRates = {
+      NPR: { rate: 1, symbol: 'NPR ' },
+      USD: { rate: 1 / 150.17, symbol: '$' },
+      EUR: { rate: 1 / 167.80, symbol: '€' },
+      INR: { rate: 1 / 1.60, symbol: '₹' }
+    };
+
+    async function fetchLiveExchangeRates() {
+      try {
+        const response = await fetch('https://open.er-api.com/v6/latest/NPR');
+        const data = await response.json();
+        if (data && data.rates) {
+          if (data.rates.USD) currentRates.USD.rate = data.rates.USD;
+          if (data.rates.EUR) currentRates.EUR.rate = data.rates.EUR;
+          if (data.rates.INR) currentRates.INR.rate = data.rates.INR;
+          updateCurrency();
+        }
+      } catch (error) {
+        console.log('Using default exchange rates fallback:', error);
+      }
+    }
+
+    function updateCurrency() {
+      const currency = document.getElementById('currencySelect').value;
+      const priceTags = document.querySelectorAll('.price-tag');
+
+      priceTags.forEach(tag => {
+        const nprValue = parseFloat(tag.getAttribute('data-npr'));
+        const converted = Math.round(nprValue * currentRates[currency].rate);
+        if (currency === 'NPR') {
+          tag.innerText = `Starting From NPR ${nprValue}/-`;
+        } else {
+          tag.innerText = `Starting From ${currentRates[currency].symbol}${converted.toLocaleString()}/-`;
+        }
+      });
+    }
+
+    function toggleFaq(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('i');
+      content.classList.toggle('hidden');
+      icon.classList.toggle('rotate-45');
+    }
+
+    fetchLiveExchangeRates();
+  </script>
+</body>
+</html>
